@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 import "./globals.css";
 
 const sans = Geist({
@@ -14,10 +16,22 @@ const mono = Geist_Mono({
   display: "swap",
 });
 
+const description =
+  "ML engineer working on inference performance, retrieval, and agent systems.";
 export const metadata: Metadata = {
-  title: "Layanne El Assaad",
-  description:
-    "ML engineer working on inference performance, retrieval, and agent systems. M.S. Computer Science, Columbia.",
+  metadataBase: new URL("https://www.layanneelassaad.com"),
+  title: {
+    default: "Layanne El Assaad",
+    template: "%s · Layanne El Assaad",
+  },
+  description,
+  openGraph: {
+    title: "Layanne El Assaad",
+    description,
+    url: "https://www.layanneelassaad.com",
+    siteName: "Layanne El Assaad",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -25,7 +39,11 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${sans.variable} ${mono.variable}`}>
-      <body>{children}</body>
+      <body>
+        <Nav />
+        <main>{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 }
