@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="1200" height="460" font-family="Geist, 'Helvetica Neue', Helvetica, Arial, sans-serif" role="img">
+<text x="120" y="40" font-size="15" fill="#8a8a8a" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">Throughput in tokens per second, CPU with gloo backend, 4-layer transformer</text>
+<line x1="120" y1="350.0" x2="1120" y2="350.0" stroke="#c9c9c9" stroke-width="1"/>
+<text x="106" y="355.0" font-size="13" fill="#8a8a8a" text-anchor="end" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">0</text>
+<line x1="120" y1="280.0" x2="1120" y2="280.0" stroke="#e6e6e6" stroke-width="1"/>
+<text x="106" y="285.0" font-size="13" fill="#8a8a8a" text-anchor="end" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">250</text>
+<line x1="120" y1="210.0" x2="1120" y2="210.0" stroke="#e6e6e6" stroke-width="1"/>
+<text x="106" y="215.0" font-size="13" fill="#8a8a8a" text-anchor="end" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">500</text>
+<line x1="120" y1="140.0" x2="1120" y2="140.0" stroke="#e6e6e6" stroke-width="1"/>
+<text x="106" y="145.0" font-size="13" fill="#8a8a8a" text-anchor="end" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">750</text>
+<line x1="120" y1="70.0" x2="1120" y2="70.0" stroke="#e6e6e6" stroke-width="1"/>
+<text x="106" y="75.0" font-size="13" fill="#8a8a8a" text-anchor="end" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">1000</text>
+<rect x="157.0" y="175.3" width="52" height="174.7" fill="#9aa5b1" rx="2"/>
+<text x="183.0" y="167.3" font-size="12" fill="#5f5f5f" text-anchor="middle" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">624</text>
+<rect x="219.0" y="140.0" width="52" height="210.0" fill="#2a6f62" rx="2"/>
+<text x="245.0" y="132.0" font-size="12" fill="#5f5f5f" text-anchor="middle" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">750</text>
+<rect x="281.0" y="151.0" width="52" height="199.0" fill="#c2553a" rx="2"/>
+<text x="307.0" y="143.0" font-size="12" fill="#5f5f5f" text-anchor="middle" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">711</text>
+<text x="245.0" y="378" font-size="13" fill="#0a0a0a" text-anchor="middle" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">4L-4H, 2 processes</text>
+<rect x="407.0" y="104.1" width="52" height="245.9" fill="#9aa5b1" rx="2"/>
+<text x="433.0" y="96.1" font-size="12" fill="#5f5f5f" text-anchor="middle" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">878</text>
+<rect x="469.0" y="93.3" width="52" height="256.7" fill="#2a6f62" rx="2"/>
+<text x="495.0" y="85.3" font-size="12" fill="#5f5f5f" text-anchor="middle" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">917</text>
+<rect x="531.0" y="105.3" width="52" height="244.7" fill="#c2553a" rx="2"/>
+<text x="557.0" y="97.3" font-size="12" fill="#5f5f5f" text-anchor="middle" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">874</text>
+<text x="495.0" y="378" font-size="13" fill="#0a0a0a" text-anchor="middle" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">4L-4H, 4 processes</text>
+<rect x="657.0" y="145.8" width="52" height="204.2" fill="#9aa5b1" rx="2"/>
+<text x="683.0" y="137.8" font-size="12" fill="#5f5f5f" text-anchor="middle" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">729</text>
+<rect x="719.0" y="152.9" width="52" height="197.1" fill="#2a6f62" rx="2"/>
+<text x="745.0" y="144.9" font-size="12" fill="#5f5f5f" text-anchor="middle" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">704</text>
+<rect x="781.0" y="140.3" width="52" height="209.7" fill="#c2553a" rx="2"/>
+<text x="807.0" y="132.3" font-size="12" fill="#5f5f5f" text-anchor="middle" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">749</text>
+<text x="745.0" y="378" font-size="13" fill="#0a0a0a" text-anchor="middle" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">4L-8H, 2 processes</text>
+<rect x="907.0" y="91.2" width="52" height="258.8" fill="#9aa5b1" rx="2"/>
+<text x="933.0" y="83.2" font-size="12" fill="#5f5f5f" text-anchor="middle" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">924</text>
+<rect x="969.0" y="93.7" width="52" height="256.3" fill="#2a6f62" rx="2"/>
+<text x="995.0" y="85.7" font-size="12" fill="#5f5f5f" text-anchor="middle" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">915</text>
+<rect x="1031.0" y="100.3" width="52" height="249.7" fill="#c2553a" rx="2"/>
+<text x="1057.0" y="92.3" font-size="12" fill="#5f5f5f" text-anchor="middle" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">892</text>
+<text x="995.0" y="378" font-size="13" fill="#0a0a0a" text-anchor="middle" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">4L-8H, 4 processes</text>
+<rect x="120" y="420" width="14" height="14" fill="#9aa5b1" rx="2"/>
+<text x="142" y="432" font-size="14" fill="#5f5f5f">GPipe</text>
+<rect x="222.5" y="420" width="14" height="14" fill="#2a6f62" rx="2"/>
+<text x="244.5" y="432" font-size="14" fill="#5f5f5f">1F1B</text>
+<rect x="316.5" y="420" width="14" height="14" fill="#c2553a" rx="2"/>
+<text x="338.5" y="432" font-size="14" fill="#5f5f5f">Interleaved 1F1B</text>
+</svg>

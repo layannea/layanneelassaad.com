@@ -17,7 +17,7 @@ const mono = Geist_Mono({
 });
 
 const description =
-  "ML engineer working on inference performance, retrieval, and agent systems.";
+  "I build infrastructure that makes machine learning and agent systems reliable.";
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.layanneelassaad.com"),
   title: {
@@ -25,6 +25,10 @@ export const metadata: Metadata = {
     template: "%s · Layanne El Assaad",
   },
   description,
+  icons: {
+    icon: [{ url: "/icon.svg?v=4", type: "image/svg+xml" }],
+    shortcut: "/favicon.ico?v=4",
+  },
   openGraph: {
     title: "Layanne El Assaad",
     description,

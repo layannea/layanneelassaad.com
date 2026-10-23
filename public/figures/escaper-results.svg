@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="1200" height="460" font-family="Geist, 'Helvetica Neue', Helvetica, Arial, sans-serif" role="img">
+<text x="120" y="40" font-size="15" fill="#8a8a8a" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">Mean steps to escape, hard room, 10 seeds per condition</text>
+<line x1="120" y1="350.0" x2="1120" y2="350.0" stroke="#c9c9c9" stroke-width="1"/>
+<text x="106" y="355.0" font-size="13" fill="#8a8a8a" text-anchor="end" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">0</text>
+<line x1="120" y1="286.4" x2="1120" y2="286.4" stroke="#e6e6e6" stroke-width="1"/>
+<text x="106" y="291.4" font-size="13" fill="#8a8a8a" text-anchor="end" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">5</text>
+<line x1="120" y1="222.7" x2="1120" y2="222.7" stroke="#e6e6e6" stroke-width="1"/>
+<text x="106" y="227.7" font-size="13" fill="#8a8a8a" text-anchor="end" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">10</text>
+<line x1="120" y1="159.1" x2="1120" y2="159.1" stroke="#e6e6e6" stroke-width="1"/>
+<text x="106" y="164.1" font-size="13" fill="#8a8a8a" text-anchor="end" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">15</text>
+<line x1="120" y1="95.5" x2="1120" y2="95.5" stroke="#e6e6e6" stroke-width="1"/>
+<text x="106" y="100.5" font-size="13" fill="#8a8a8a" text-anchor="end" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">20</text>
+<rect x="185.0" y="264.7" width="120" height="85.3" fill="#1f6f6b" rx="3"/>
+<text x="245.0" y="252.7" font-size="18" fill="#0a0a0a" text-anchor="middle" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace" font-weight="500">6.7</text>
+<text x="245.0" y="376" font-size="13" fill="#5f5f5f" text-anchor="middle">Cooperative</text>
+<text x="245.0" y="394" font-size="13" fill="#5f5f5f" text-anchor="middle">baseline</text>
+<rect x="435.0" y="109.5" width="120" height="240.5" fill="#b5482b" rx="3"/>
+<text x="495.0" y="97.5" font-size="18" fill="#0a0a0a" text-anchor="middle" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace" font-weight="500">18.9</text>
+<text x="495.0" y="376" font-size="13" fill="#5f5f5f" text-anchor="middle">Hidden</text>
+<text x="495.0" y="394" font-size="13" fill="#5f5f5f" text-anchor="middle">adversary</text>
+<rect x="685.0" y="194.7" width="120" height="155.3" fill="#1f6f6b" rx="3"/>
+<text x="745.0" y="182.7" font-size="18" fill="#0a0a0a" text-anchor="middle" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace" font-weight="500">12.2</text>
+<text x="745.0" y="376" font-size="13" fill="#5f5f5f" text-anchor="middle">Adversary +</text>
+<text x="745.0" y="394" font-size="13" fill="#5f5f5f" text-anchor="middle">private reputation</text>
+<rect x="935.0" y="197.3" width="120" height="152.7" fill="#1f6f6b" rx="3"/>
+<text x="995.0" y="185.3" font-size="18" fill="#0a0a0a" text-anchor="middle" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace" font-weight="500">12.0</text>
+<text x="995.0" y="376" font-size="13" fill="#5f5f5f" text-anchor="middle">Adversary +</text>
+<text x="995.0" y="394" font-size="13" fill="#5f5f5f" text-anchor="middle">reputation + gossip</text>
+<path d="M 495.0 77.5 L 495.0 69.5 L 745.0 69.5 L 745.0 77.5" stroke="#8a8a8a" stroke-width="1.2" fill="none"/>
+<text x="620.0" y="61.5" font-size="14" fill="#0a0a0a" text-anchor="middle" font-family="'Geist Mono', 'SF Mono', Menlo, Consolas, monospace">-35%</text>
+</svg>
