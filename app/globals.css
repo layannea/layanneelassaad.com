@@ -964,3 +964,53 @@ a.card:hover {
     grid-template-columns: 1fr;
   }
 }
+
+/* ------------------------------------------------------------------ */
+/* Mobile refinements                                                  */
+/* ------------------------------------------------------------------ */
+@media (max-width: 760px) {
+  .hero {
+    padding-block: var(--space-10, 40px) var(--space-8);
+  }
+
+  .contact-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-4);
+  }
+
+  .project-aside {
+    padding-bottom: var(--space-8);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .project-facts {
+    grid-template-columns: 1fr;
+  }
+
+  /* Wide figures scroll sideways instead of shrinking to illegibility */
+  .project-figure.is-wide {
+    margin-left: calc(-1 * var(--gutter));
+    margin-right: calc(-1 * var(--gutter));
+    width: auto;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 0 var(--gutter);
+    scrollbar-width: thin;
+  }
+
+  .project-figure.is-wide img {
+    min-width: 680px;
+    max-width: none;
+  }
+
+  .project-nav {
+    gap: var(--space-6);
+  }
+}
+
+@media (max-width: 400px) {
+  .site-nav {
+    gap: var(--space-4);
+  }
+}

@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
 
 function FigureBlock({ figure }: { figure: Figure }) {
   return (
-    <figure className="project-figure">
+    <figure className={`project-figure${figure.wide ? " is-wide" : ""}`}>
       {figure.label && <p className="label project-figure-label">{figure.label}</p>}
       {figure.kind === "video" ? (
         <video src={figure.src} controls playsInline preload="metadata" />
