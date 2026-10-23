@@ -4,7 +4,6 @@ export type Figure = {
   caption?: string;
   label?: string;
   kind?: "image" | "video";
-  wide?: boolean;
 };
 
 export type Section = {
@@ -116,7 +115,6 @@ export const projects: Project[] = [
         ],
         figure: {
           src: "/figures/esmfold-runtime-breakdown.png",
-          wide: true,
           alt: "Stacked share of forward-pass runtime by stage for each CASP14 protein, sorted by sequence length",
         },
         after: [
@@ -150,7 +148,7 @@ export const projects: Project[] = [
     slug: "escaper",
     title: "ESCAPER",
     summary:
-      "LLM agents in a team have no principled way to decide how much to trust each other, so one unreliable agent's misinformation spreads through shared context. ESCAPER is an escape-room environment for studying trust calibration under partial observability, where agent teams solve rooms together while a hidden malicious teammate feeds them misinformation.",
+      "ESCAPER is an escape-room environment for studying trust calibration under partial observability, where agent teams solve rooms together while a hidden malicious teammate feeds them misinformation.",
     lead:
       "An escape-room platform for studying trust calibration in LLM agent teams.",
     tag: "Multi-agent systems",
@@ -197,7 +195,6 @@ export const projects: Project[] = [
         ],
         figure: {
           src: "/figures/escaper-results.svg",
-          wide: true,
           alt: "Mean steps to escape in the hard room across four conditions",
         },
         after: [
@@ -237,7 +234,6 @@ export const projects: Project[] = [
         ],
         figure: {
           src: "/figures/pipeline-schedules.svg",
-          wide: true,
           alt: "GPipe and 1F1B schedules for four stages and four microbatches, with idle time hatched",
         },
       },
@@ -249,7 +245,6 @@ export const projects: Project[] = [
         ],
         figure: {
           src: "/figures/pipeline-throughput.svg",
-          wide: true,
           alt: "Throughput in tokens per second for GPipe, 1F1B and interleaved 1F1B on two model shapes at two and four processes",
         },
         after: [

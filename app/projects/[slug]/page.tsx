@@ -19,13 +19,15 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
 
 function FigureBlock({ figure }: { figure: Figure }) {
   return (
-    <figure className={`project-figure${figure.wide ? " is-wide" : ""}`}>
+    <figure className="project-figure">
       {figure.label && <p className="label project-figure-label">{figure.label}</p>}
       {figure.kind === "video" ? (
         <video src={figure.src} controls playsInline preload="metadata" />
       ) : (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img src={figure.src} alt={figure.alt} loading="lazy" />
+        <a href={figure.src} target="_blank" rel="noreferrer" aria-label={`Open full-size: ${figure.alt}`}>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src={figure.src} alt={figure.alt} loading="lazy" />
+        </a>
       )}
       {figure.caption && <figcaption className="label">{figure.caption}</figcaption>}
     </figure>
